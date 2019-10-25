@@ -1,0 +1,163 @@
+<!DICTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Functional restoration" content="Functional restoration">
+<title>Functional restoration</title>
+<base href="index.html">
+<base target="_self">
+
+<style>
+	
+	*{
+		margin:0;
+		padding:0;
+	}
+	body{
+		background-image: url("img/bg2.jpg");
+		background-repeat: repeat;
+		background-color: #F5F5F5;
+	    margin:0;
+		padding:0;
+		opacity:0.9;
+	}
+	header{
+		margin:1% auto;
+		width:90%;
+		height: 18%;
+		font-family: "Lucida Sans", sans-serif;
+		color:lightgoldenrodyellow;
+		text-align: center;
+		background: #FF8C00;
+		font-weight: bold;
+		font-size: 6em;
+		font-variant:small-caps;
+		border: none;
+		border-radius: 20px;
+	}
+	header a{
+		text-decoration: none;
+		color:lightgoldenrodyellow;
+	}
+	header a:hover {
+	    color: #FF4500;
+	}
+	header a.active {
+	    color: white;
+	}
+	.column{
+	    float: left;
+	    padding: 0px;
+		font-size: larger;
+		
+	}
+	.clearfix:after{
+	    content: "";
+	    clear: both;
+	    display: table;
+		height: 0px;
+	}
+	.container{
+		width:90%;
+		height:75%;
+		margin:0px 5%;
+	}
+	.container aside{
+		width:17%;
+		height:100%;
+		text-align:center;
+		font-size:larger;
+		float:left;
+		background:rgba(244,164,96,0);
+		
+	}
+	.container section{
+		width:82%;
+		height:100%;
+		float:right;
+		background:rgba(244,164,96,0.8);
+	}
+	ul{
+	    list-style-type: none;
+	    margin-left: 1%;
+		margin-right: 1%;
+	    padding: 0px;
+	}
+	li a {
+	    margin-bottom: 3px;
+	    display: block;
+	    padding: 15px 50px;
+	    background: #FF8C00;
+	    text-decoration: none;
+	    color:lightgoldenrodyellow;
+		text-align: center;
+		vertical-align: middle;
+		font-family: "Lucida Sans", sans-serif;
+		border: none;
+		border-radius: 20px;
+		cursor: pointer;
+	
+	}
+	a.gradients{
+		background: linear-gradient(to right, #FF8C00,#F4A460);
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px ;
+	}
+	li a:hover {
+	    background-color: #F4A460;
+	    color: #FF4500;
+	}
+	li a.active {
+	    background-color: #FF6347;
+	    color: #FFA07A;
+	}
+
+
+	footer{
+		text-align: center;
+		vertical-align: middle;
+	}
+	li:nth-child(5){
+		width: 108%;
+	}
+
+</style>
+
+</head>
+<body>
+	<script type="text/javascript" src="canvas-nest.min.js"></script>
+
+	
+	<header>
+		<a href="index.html">menu or body</a>
+	</header>
+	<div class="clearfix">
+		<div class="container">
+			<aside>
+				<ul>
+				  <li><a href="head.html">Head</a></li>
+				  <li><a href="shoulder.html">Shoulder</a></li>
+				  <li><a href="chest.html">chest</a></li>
+				  <li><a href="back.html">Back</a></li>
+				  <li><a class="gradients" href="waist.html">Waist</a></li>
+				  <li><a href="hand.html">Hand</a></li>
+				  <li><a href="knee.html">Knee</a></li>
+				  <li><a href="ankle.html">ankle</a></li>
+				  <li><a href="connection.html">Connection</a></li>
+				  <li><a href="about.html">About us</a></li>
+				</ul>
+			</aside>
+			<section>
+			  <article>
+			    
+			  </article>
+			</section>
+		</div>
+	</div>
+	
+	<footer>
+		<p>Posted by: Tao</p>
+		<p><time pubdate datetime="2019-10-06"></time></p>
+	</footer>
+</body>
+</html>

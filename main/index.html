@@ -1,0 +1,213 @@
+<!DICTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Functional restoration" content="Functional restoration">
+<title>Functional restoration</title>
+<base href="index.html">
+<base target="_blank">
+
+<style>
+	*{
+		margin:0;
+		padding:0;
+	
+	}
+	body{
+		background-image: url("img/bg2.jpg");
+		background-size: 200px 200px;
+		background-repeat: repeat;
+		background-color: #F5F5F5;
+	    margin:0;
+		padding:0;
+		opacity:0.9;
+
+	}
+	header{
+		margin:1% auto;
+		width:90%;
+		height: 18%;
+		font-family: "Lucida Sans", sans-serif;
+		color:lightgoldenrodyellow;
+		text-align: center;
+		background: rgba(255,140,0,0.7);
+		font-weight: bold;
+		font-size: 6em;
+		font-variant:small-caps;
+		border: none;
+		border-radius: 10px;;
+	}
+	header a{
+		text-decoration: none;
+		color:lightgoldenrodyellow;
+	}
+	header a:hover {
+	    color: #FF4500;
+	}
+	header a.active {
+	    color: white;
+	}
+	.left-aside{
+	    float: left;
+	    padding: 0px;
+		font-size: 2em;
+	}
+	.right-aside{
+	    float: right;
+	    padding: 0px;
+		font-size: 2em;
+	}
+	.sidemenu-right{
+		height: 75%;
+		width: 35%;
+		
+	}
+	.sidemenu-left{
+		height: 75%;
+		width: 35%;
+		
+	}
+	.sidemenu-right ul{
+	    list-style-type: none;
+	    margin: 0px 14%;
+	    padding: 0px;
+		
+	}
+	.sidemenu-left ul{
+	    list-style-type: none;
+	    margin: 0px 14%;
+	    padding: 0px;
+		
+	}
+	.sidemenu-right li{
+		height: 18%;
+		float: right;
+	}
+	.sidemenu-left li{
+		height: 18%;
+		float: left;
+	}
+	.sidemenu-left li a {
+		margin-bottom: 10px;
+	    display: block;
+	    padding: 30px 30px;
+	    background: #FF8C00;
+	    text-decoration: none;
+	    color:lightgoldenrodyellow;
+		text-align: center;
+		vertical-align: middle;
+		font-family: "Lucida Sans", sans-serif;
+		border: none;
+		border-radius: 20px;
+		cursor: pointer;
+		background: rgba(255,140,0,0.7);
+		
+	}
+	.sidemenu-right li a {
+		margin-bottom: 10px;
+	    display: block;
+	    padding: 30px 30px;
+	    background: #FF8C00;
+	    text-decoration: none;
+	    color:lightgoldenrodyellow;
+		text-align: center;
+		vertical-align: middle;
+		font-family: "Lucida Sans", sans-serif;
+		border: none;
+		border-radius: 20px;
+		cursor: pointer;
+		background: rgba(255,140,0,0.7);
+	}
+	.sidemenu-left li a:hover {
+	    background-color: #FF8C00;
+	    color: #FF4500;
+		transition:0.8s;
+	}
+	.sidemenu-right li a:hover {
+	    background-color: #FF8C00;
+	    color: #FF4500;
+		transition:0.8s;
+	}
+	.sidemenu-left li a.active {
+	    background-color: #FF6347;
+	    color: #FFA07A;
+	}
+	.sidemenu-right li a.active {
+	    background-color: #FF6347;
+	    color: #FFA07A;
+	}
+	.clearfix::after{
+	    content: "";
+	    clear: both;
+	    display: table;
+		height: 0px;
+	}
+	li:nth-child(1){
+		width: 100%;
+	}
+	li:nth-child(2){
+		width: 90%;
+	}
+	li:nth-child(3){
+		width: 80%;
+	}
+	li:nth-child(4){
+		width: 90%;
+	}
+	li:nth-child(5){
+		width: 100%;
+	}
+	img.man{
+		position: absolute;
+		top: 21%;
+		left: 37.5%;	
+	}
+	img:hover
+	{
+		opacity:0.9;
+		filter:alpha(opacity=90); /* 针对 IE8 以及更早的版本 */
+	}
+	footer{
+		text-align: center;
+		vertical-align: middle;
+	}
+</style>
+
+</head>
+<body>
+	<script type="text/javascript" src="canvas-nest.min.js"></script>
+
+	<img class="man" src="img/man.png" alt="BODY" width=25% height=548px usemap="#man1">
+	<map name="man1">
+		<area shape="rect" coords="-1000,-1000,10000,10000" href="head.html">
+	</map>
+	
+	<header>
+		<a href="sound.html" target="_self">menu or body</a>
+	</header>
+	<div class="clearfix">
+		<div class="left-aside sidemenu-left">
+			<ul>
+				<li><a href="head.html">Head</a></li>
+				<li><a href="shoulder.html">Shoulder</a></li>
+				<li><a href="chest.html">chest</a></li>
+				<li><a href="back.html">Back</a></li>
+				<li><a href="connection.html">Connection</a></li>
+			</ul>
+		</div>
+		<div class="right-aside sidemenu-right">
+			<ul>
+				<li><a href="waist.html">Waist</a></li>
+				<li><a href="hand.html">Hand</a></li>
+				<li><a href="knee.html">Knee</a></li>
+				<li><a href="ankle.html">ankle</a></li>
+				<li><a href="about.html">About us</a></li>
+			</ul>
+		</div>
+	</div>
+	<footer>
+		
+		<p><time pubdate datetime="2019-10-06"></time></p>
+	</footer>
+</body>
+</html>
